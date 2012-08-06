@@ -1,0 +1,299 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		44CFA4061582083200EC8A8D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44CFA4051582083200EC8A8D /* UIKit.framework */; };
+		44CFA4081582083200EC8A8D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44CFA4071582083200EC8A8D /* Foundation.framework */; };
+		44CFA40A1582083200EC8A8D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44CFA4091582083200EC8A8D /* CoreGraphics.framework */; };
+		44CFA4101582083200EC8A8D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 44CFA40E1582083200EC8A8D /* InfoPlist.strings */; };
+		44CFA4121582083200EC8A8D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 44CFA4111582083200EC8A8D /* main.m */; };
+		44CFA4161582083200EC8A8D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 44CFA4151582083200EC8A8D /* AppDelegate.m */; };
+		44CFA4191582083300EC8A8D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44CFA4181582083300EC8A8D /* ViewController.m */; };
+		44CFA41C1582083300EC8A8D /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 44CFA41A1582083300EC8A8D /* ViewController_iPhone.xib */; };
+		44CFA41F1582083300EC8A8D /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 44CFA41D1582083300EC8A8D /* ViewController_iPad.xib */; };
+		44CFA42715820AA700EC8A8D /* NSDate+Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 44CFA42615820AA700EC8A8D /* NSDate+Utilities.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		44CFA4011582083200EC8A8D /* DateUtility.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DateUtility.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		44CFA4051582083200EC8A8D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		44CFA4071582083200EC8A8D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		44CFA4091582083200EC8A8D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		44CFA40D1582083200EC8A8D /* DateUtility-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DateUtility-Info.plist"; sourceTree = "<group>"; };
+		44CFA40F1582083200EC8A8D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		44CFA4111582083200EC8A8D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		44CFA4131582083200EC8A8D /* DateUtility-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DateUtility-Prefix.pch"; sourceTree = "<group>"; };
+		44CFA4141582083200EC8A8D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		44CFA4151582083200EC8A8D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		44CFA4171582083300EC8A8D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		44CFA4181582083300EC8A8D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		44CFA41B1582083300EC8A8D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
+		44CFA41E1582083300EC8A8D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+		44CFA42515820AA700EC8A8D /* NSDate+Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Utilities.h"; sourceTree = "<group>"; };
+		44CFA42615820AA700EC8A8D /* NSDate+Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Utilities.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		44CFA3FE1582083200EC8A8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44CFA4061582083200EC8A8D /* UIKit.framework in Frameworks */,
+				44CFA4081582083200EC8A8D /* Foundation.framework in Frameworks */,
+				44CFA40A1582083200EC8A8D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		44CFA3F61582083200EC8A8D = {
+			isa = PBXGroup;
+			children = (
+				44CFA42515820AA700EC8A8D /* NSDate+Utilities.h */,
+				44CFA42615820AA700EC8A8D /* NSDate+Utilities.m */,
+				44CFA40B1582083200EC8A8D /* DateUtility */,
+				44CFA4041582083200EC8A8D /* Frameworks */,
+				44CFA4021582083200EC8A8D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		44CFA4021582083200EC8A8D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				44CFA4011582083200EC8A8D /* DateUtility.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		44CFA4041582083200EC8A8D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				44CFA4051582083200EC8A8D /* UIKit.framework */,
+				44CFA4071582083200EC8A8D /* Foundation.framework */,
+				44CFA4091582083200EC8A8D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		44CFA40B1582083200EC8A8D /* DateUtility */ = {
+			isa = PBXGroup;
+			children = (
+				44CFA4141582083200EC8A8D /* AppDelegate.h */,
+				44CFA4151582083200EC8A8D /* AppDelegate.m */,
+				44CFA4171582083300EC8A8D /* ViewController.h */,
+				44CFA4181582083300EC8A8D /* ViewController.m */,
+				44CFA41A1582083300EC8A8D /* ViewController_iPhone.xib */,
+				44CFA41D1582083300EC8A8D /* ViewController_iPad.xib */,
+				44CFA40C1582083200EC8A8D /* Supporting Files */,
+			);
+			path = DateUtility;
+			sourceTree = "<group>";
+		};
+		44CFA40C1582083200EC8A8D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				44CFA40D1582083200EC8A8D /* DateUtility-Info.plist */,
+				44CFA40E1582083200EC8A8D /* InfoPlist.strings */,
+				44CFA4111582083200EC8A8D /* main.m */,
+				44CFA4131582083200EC8A8D /* DateUtility-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		44CFA4001582083200EC8A8D /* DateUtility */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44CFA4221582083300EC8A8D /* Build configuration list for PBXNativeTarget "DateUtility" */;
+			buildPhases = (
+				44CFA3FD1582083200EC8A8D /* Sources */,
+				44CFA3FE1582083200EC8A8D /* Frameworks */,
+				44CFA3FF1582083200EC8A8D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DateUtility;
+			productName = DateUtility;
+			productReference = 44CFA4011582083200EC8A8D /* DateUtility.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		44CFA3F81582083200EC8A8D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 44CFA3FB1582083200EC8A8D /* Build configuration list for PBXProject "DateUtility" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 44CFA3F61582083200EC8A8D;
+			productRefGroup = 44CFA4021582083200EC8A8D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				44CFA4001582083200EC8A8D /* DateUtility */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		44CFA3FF1582083200EC8A8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44CFA4101582083200EC8A8D /* InfoPlist.strings in Resources */,
+				44CFA41C1582083300EC8A8D /* ViewController_iPhone.xib in Resources */,
+				44CFA41F1582083300EC8A8D /* ViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		44CFA3FD1582083200EC8A8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44CFA4121582083200EC8A8D /* main.m in Sources */,
+				44CFA4161582083200EC8A8D /* AppDelegate.m in Sources */,
+				44CFA4191582083300EC8A8D /* ViewController.m in Sources */,
+				44CFA42715820AA700EC8A8D /* NSDate+Utilities.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		44CFA40E1582083200EC8A8D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				44CFA40F1582083200EC8A8D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		44CFA41A1582083300EC8A8D /* ViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				44CFA41B1582083300EC8A8D /* en */,
+			);
+			name = ViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		44CFA41D1582083300EC8A8D /* ViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				44CFA41E1582083300EC8A8D /* en */,
+			);
+			name = ViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		44CFA4201582083300EC8A8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		44CFA4211582083300EC8A8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		44CFA4231582083300EC8A8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DateUtility/DateUtility-Prefix.pch";
+				INFOPLIST_FILE = "DateUtility/DateUtility-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		44CFA4241582083300EC8A8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DateUtility/DateUtility-Prefix.pch";
+				INFOPLIST_FILE = "DateUtility/DateUtility-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		44CFA3FB1582083200EC8A8D /* Build configuration list for PBXProject "DateUtility" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44CFA4201582083300EC8A8D /* Debug */,
+				44CFA4211582083300EC8A8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44CFA4221582083300EC8A8D /* Build configuration list for PBXNativeTarget "DateUtility" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44CFA4231582083300EC8A8D /* Debug */,
+				44CFA4241582083300EC8A8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 44CFA3F81582083200EC8A8D /* Project object */;
+}
